@@ -107,6 +107,7 @@ if(d_map[itt->first] < itt->second[3]) bool_value=false;
 }///end of loop over itt the third loop over particles
 //////end of bool_value determination
 
+//////comment
 
 if(bool_value==true){///this is condition on the line of sight
 f_ion=e*n_ion*pow((m_ion/(2*pi*k_B*T_ion)),3/2)*pow(v,3)*cos(alpha)*sin(alpha)*exp(m_ion*(pow(v,2)*pow(v0,2)-2*v*v0*(cos(alpha)*cos(theta)+sin(alpha)*cos(beta)*sin(theta)))/(2*k_B*T_ion));
